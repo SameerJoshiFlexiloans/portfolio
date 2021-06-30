@@ -28,10 +28,20 @@
     color: rgb(235, 164, 52);
 }
 
-.about h5{
-    text-align: center;
-}
-
 .self-image{
     border-radius: 50%;
+}
+
+.info-label{
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+}
+
+.about{
+    font-size: 22px;
+}
+
+.info-text{
+    margin-bottom: 1.5rem;
 }
