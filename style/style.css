@@ -57,3 +57,60 @@
 .navbar.scrolled{
     background-color: black;
 }
+
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.fa-linkedin-in{
+    color:blue
+}
+
+.skills{
+    padding-bottom: 5px;
+}
+
+.fa-facebook{
+    color: blue;
+}
+
+.fa-instagram{
+    color: red;
+}
+
+.fa-whatsapp,.fa-node{
+    color:green;
+}
+
+.fa-css3{
+    color:blue
+}
+
+.fa-html5{
+    color:orange;
+}
+
+.fa-js{
+    color:yellow
+}
+
+.fa-angular{
+    color:red;
+}
+
+.fa-python, .fa-java{
+    color:rgb(116, 116, 194)
+}
+
+.fa-cuttlefish{
+    color:rgb(88, 88, 214)
+}
+
+.skills .card-title{
+    font-size:25px;
+}
+
+.first .nav-item:hover{
+    background-color: gray;
+    color:white
+}
