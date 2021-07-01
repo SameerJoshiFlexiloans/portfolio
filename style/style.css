@@ -54,10 +54,6 @@
     text-align: center;
 }
 
-.navbar.scrolled{
-    background-color: black;
-}
-
 .contact a{
     text-decoration: none;
     color: black;
@@ -107,10 +103,23 @@
 }
 
 .skills .card-title{
-    font-size:25px;
+    font-size:20px;
 }
 
 .first .nav-item:hover{
     background-color: gray;
     color:white
+}
+
+.navbar .nav-item{
+    font-size:20px
+}
+
+.navbar .navbar-brand{
+    font-size: 35px;
+}
+
+.navbar{
+    position:fixed;
+    top:0;
 }
