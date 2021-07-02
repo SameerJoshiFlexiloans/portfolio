@@ -1,7 +1,7 @@
 .first{
     width: 100%;
     height: 700px;
-    background: url("../Images/joanna-kosinska-bF2vsubyHcQ-unsplash.jpg");
+    background-image: url("../Images/joanna-kosinska-bF2vsubyHcQ-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -131,4 +131,9 @@
 
 .about .lead{
     font-weight: bold;
+}
+
+.contact-me a{
+    text-decoration: none;
+    color: white;
 }

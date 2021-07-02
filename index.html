@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/bootstrap.min.css">
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="preload" as="style" href="style/style.css" onload="this.onload=null;this.rel='stylesheet'">
+    <link  rel="preload" as="style" href="style/bootstrap.min.css" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/bootstrap.min.css">
+    </noscript>
+    <script defer src="js/bootstrap.bundle.min.js"></script>
     <script defer src="fontawesome-free-5.15.3-web/js/all.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
     <div class="first">
@@ -41,7 +44,7 @@
         </nav>
         <div class="name">
             <h1 class="display-3">I'm Sameer Joshi<br>A Full-Stack Developer</h1>
-            <div class="contact-me ms-auto me-auto p-1">Contact Me.</div>
+            <div class="contact-me ms-auto me-auto p-1"><a href="#contact">Contact Me.</a></div>
         </div>
     </div>
     <div class="about mt-5" id="about">
@@ -52,7 +55,7 @@
                 </p>
             </div>
             <div class="col-lg-4">
-                <img class="self-image" src="Images/Sameer_Joshi.jpeg">
+                <img class="self-image" alt="Self Image" src="Images/Sameer_Joshi.jpeg">
             </div>
             <div class="col-lg-5 card border-white ms-3" style="width: 35rem;">
                 <div class="card-body">
@@ -72,11 +75,16 @@
         <div class="row">
             <div class="col-lg-5 mx-auto">
                 <div class="card border-info">
+                    <div class="card-header">
+                        <h4><i class="fas fa-graduation-cap"></i> Bachelor of Engineering</h4>
+                    </div>
                     <div class="card-body education-value">
-                        <h4 class="card-title"><i class="fas fa-graduation-cap"></i> Bachelor of Engineering</h4>
                         <h5 class="card-title">Don Bosco Institute of Technology, Mumbai.</h5>
                         <p class="card-text">Currently persuing BE with overall average pointer 7.96</p>
                     </div>
+                    <div class="card-footer" style="text-align: center;">
+                        <h5><i class="far fa-calendar"></i>  2018 - 2021</h5>
+                    </div>
                 </div>
                 <hr>
             </div>
@@ -84,11 +92,16 @@
         <div class="row">
             <div class="col-lg-5 mx-auto">
                 <div class="card border-info">
+                    <div class="card-header">
+                        <h4><i class="fas fa-university"></i> Diploma in Computer Engineering</h4>
+                    </div>
                     <div class="card-body education-value">
-                        <h4 class="card-title"><i class="fas fa-university"></i> Diploma in Computer Engineering</h4>
                         <h5 class="card-title">MGM's Polytechnic college, Aurangabad.</h5>
                         <p class="card-text">Completed diploma with first class distinction with 83.19%. </p>
                     </div>
+                    <div class="card-footer" style="text-align: center;">
+                        <h5><i class="far fa-calendar"></i>  2015 - 2018</h5>
+                    </div>
                 </div>
                 <hr>
             </div>
@@ -96,13 +109,17 @@
         <div class="row">
             <div class="col-lg-5 mx-auto">
                 <div class="card border-info">
+                    <div class="card-header">
+                        <h4><i class="fas fa-school"></i> Secondory School Certificate</h4>
+                    </div>
                     <div class="card-body education-value">
-                        <h4 class="card-title"><i class="fas fa-school"></i> Secondory School Certificate</h4>
                         <h5 class="card-title">Jai Bhavani Vidhya Mandir, Aurangabad.</h5>
                         <p class="card-text">Completed SSC with First class with 80%. </p>
                     </div>
+                    <div class="card-footer" style="text-align: center;">
+                        <h5><i class="far fa-calendar"></i>  2005 - 2015</h5>
+                    </div>
                 </div>
-                <hr>
             </div>
         </div>
     </div>
@@ -111,8 +128,10 @@
         <div class="row">
             <div class="col-lg-7 mx-auto">
                 <div class="card border-success">
+                    <div class="card-header">
+                        <h4>Humour Detection and Generation</h4>
+                    </div>
                     <div class="card-body project-value">
-                        <h4 class="card-title">Humour Detection and Generation</h4>
                         <h5 class="card-title">Technology Used: Deep Learning, Natural Language Processing, Transformers.</h5>
                         <p class="card-text"><ul>
                             <li>Identifying humour in the sentence and generate it using deep learning algorithms and transformers.</li>
@@ -126,8 +145,10 @@
         <div class="row">
             <div class="col-lg-7 mx-auto">
                 <div class="card border-success">
+                    <div class="card-header">
+                        <h4>Recommender System</h4>
+                    </div>
                     <div class="card-body project-value">
-                        <h4 class="card-title">Recommender System</h4>
                         <h5 class="card-title">Technology Used: Machine Learning, Web developement.</h5>
                         <p class="card-text"><ul>
                             <li>Created as a mini project for Machine learning subject.</li>
@@ -142,8 +163,10 @@
         <div class="row">
             <div class="col-lg-7 mx-auto">
                 <div class="card border-success">
-                    <div class="card-body project-value">
+                    <div class="card-header">
                         <h4 class="card-title">Transformer Bursting prevention mechanism.</h4>
+                    </div>
+                    <div class="card-body project-value">
                         <h5 class="card-title">Technology Used: Python.</h5>
                         <p class="card-text"><ul>
                             <li>Created in the hackethon called Make-a-thon.</li>
@@ -233,7 +256,7 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-3 mt-4">
-                            <button class="btn btn-primary">Submit</button>
+                            <button class="btn btn-primary" onclick="contaceMe()">Submit</button>
                         </div>
                     </div>
                 </form>
@@ -243,13 +266,13 @@
                     <h4 class="card-title"><a href="https://in.linkedin.com/in/sameer-joshi-572b17197"><i class="fab fa-linkedin-in"></i> sameer joshi</a></h4>
                 </div><br>
                 <div class="card border-white">
-                    <h4 class="card-title"><a href="https://in.linkedin.com/in/sameer-joshi-572b17197"><i class="fab fa-facebook"></i> sameer joshi</a></h4>
+                    <h4 class="card-title"><a href="https://in.linkedin.com/in/sameer-joshi-572b17197"><i class="fab fa-facebook"></i> sameer_joshi</a></h4>
                 </div><br>
                 <div class="card border-white">
-                    <h4 class="card-title"><a href="https://in.linkedin.com/in/sameer-joshi-572b17197"><i class="fab fa-instagram"></i> sameer joshi</a></h4>
+                    <h4 class="card-title"><a href="https://in.linkedin.com/in/sameer-joshi-572b17197"><i class="fab fa-instagram"></i> sameer_joshi_007</a></h4>
                 </div><br>
                 <div class="card border-white">
-                    <h4 class="card-title"><a href="https://in.linkedin.com/in/sameer-joshi-572b17197"><i class="fab fa-whatsapp"></i> sameer joshi</a></h4>
+                    <h4 class="card-title"><a href="https://in.linkedin.com/in/sameer-joshi-572b17197"><i class="fab fa-whatsapp"></i> sameer_joshi</a></h4>
                 </div><br>
             </div>
         </div>
