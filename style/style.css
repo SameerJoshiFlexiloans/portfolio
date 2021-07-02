@@ -52,6 +52,7 @@
 
 .project-title{
     text-align: center;
+    font-weight: bold;
 }
 
 .contact a{
@@ -120,6 +121,14 @@
 }
 
 .navbar{
-    position:fixed;
-    top:0;
+    z-index: 100;
+}
+
+.header{
+    font-weight: bold; 
+    font-size: 50px;
+}
+
+.about .lead{
+    font-weight: bold;
 }
