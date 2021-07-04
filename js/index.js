@@ -9,4 +9,3 @@ function contactMe(){
     sessionStorage.setItem(userCountId,'{"message":"'+message+'","fname":"'+fname+'","lname":"'+lname+'","email":"'+email+'","subject":"'+subject+'"}');
     console.log("Stored");
 }
-

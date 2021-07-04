@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="This is the portfolio of Sameer Joshi of Don Bosco Institute of Technology.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preload" as="style" href="style/style.css" onload="this.onload=null;this.rel='stylesheet'">
     <link  rel="preload" as="style" href="style/bootstrap.min.css" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" href="style/style.css">
-        <link rel="stylesheet" href="style/bootstrap.min.css">
-    </noscript>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <script defer src="js/bootstrap.bundle.min.js"></script>
     <script defer src="fontawesome-free-5.15.3-web/js/all.js"></script>
 </head>
@@ -43,14 +43,14 @@
             </div>
         </nav>
         <div class="name">
-            <h1 class="display-3">I'm Sameer Joshi<br>A Full-Stack Developer</h1>
+            <h1 class="display-3">I'm <span class="myName">Sameer Joshi</span><br>A Full-Stack Developer</h1>
             <div class="contact-me ms-auto me-auto p-1"><a href="#contact">Contact Me.</a></div>
         </div>
     </div>
     <div class="about mt-5" id="about">
         <div class="row me-auto ms-auto">
             <div class="col-lg-3 mt-auto mb-auto">
-                <p class="lead">Self-Motivated undergraduate student working towards a Bachelor’s Degree in Computer Engineering
+                <p class="lead leadinfo">Self-Motivated undergraduate student working towards a Bachelor’s Degree in Computer Engineering
                     from Mumbai University. Inclined towards learning new things and working on new projects.
                 </p>
             </div>
@@ -59,7 +59,7 @@
             </div>
             <div class="col-lg-5 card border-white ms-3" style="width: 35rem;">
                 <div class="card-body">
-                    <h5 class="display-6 card-title"><span class="header">About Me.</span></h5><br>
+                    <h3 class="display-6 card-title title-name"><span class="header">About Me.</span></h3><br>
                     <p class="card-text info-text"><span class="info-label">Name:</span> <span class="info-value"> Sameer Joshi</span></p>
                     <p class="card-text info-text"><span class="info-label">Date of Birth:</span><span class="info-value"> October 2, 1998</span></p>
                     <p class="card-text info-text"><span class="info-label">Address:</span><span class="info-value"> Mumbai, Maharashtra.</span></p>
@@ -71,7 +71,7 @@
         </div>
     </div>
     <div class="education mt-5" id="education">
-        <h5 class="display-6 education-title" style="font-weight: bold;">Education</h5>
+        <h5 class="display-6 education-title title-name" style="font-weight: bold;">Education</h5>
         <div class="row">
             <div class="col-lg-5 mx-auto">
                 <div class="card border-info">
@@ -124,12 +124,12 @@
         </div>
     </div>
     <div class="project mt-5" id="project">
-        <h5 class="display-6 project-title" style="font-weight: bold;">Projects</h5>
+        <h5 class="display-6 project-title title-name" style="font-weight: bold;">Projects</h5>
         <div class="row">
             <div class="col-lg-7 mx-auto">
                 <div class="card border-success">
                     <div class="card-header">
-                        <h4>Humour Detection and Generation</h4>
+                        <h4><i class="far fa-smile"></i> Humour Detection and Generation</h4>
                     </div>
                     <div class="card-body project-value">
                         <h5 class="card-title">Technology Used: Deep Learning, Natural Language Processing, Transformers.</h5>
@@ -146,7 +146,7 @@
             <div class="col-lg-7 mx-auto">
                 <div class="card border-success">
                     <div class="card-header">
-                        <h4>Recommender System</h4>
+                        <h4><i class="fas fa-list-ul"></i> Recommender System</h4>
                     </div>
                     <div class="card-body project-value">
                         <h5 class="card-title">Technology Used: Machine Learning, Web developement.</h5>
@@ -164,7 +164,7 @@
             <div class="col-lg-7 mx-auto">
                 <div class="card border-success">
                     <div class="card-header">
-                        <h4 class="card-title">Transformer Bursting prevention mechanism.</h4>
+                        <h4 class="card-title"><i class="fas fa-memory"></i> Transformer Bursting prevention mechanism.</h4>
                     </div>
                     <div class="card-body project-value">
                         <h5 class="card-title">Technology Used: Python.</h5>
@@ -174,12 +174,11 @@
                         </ul></p>
                     </div>
                 </div>
-                <hr>
             </div>
         </div>
     </div>
     <div class="skills mt-5" id="skills">
-        <h5 class="display-6 project-title" style="font-weight: bold;">Skills</h5>
+        <h5 class="display-6 project-title title-name" style="font-weight: bold;">Skills</h5>
         <div class="row">
             <div class="col-lg-9 mx-auto">
                 <div class="card border-primary">
@@ -220,7 +219,7 @@
         </div>
     </div>
     <div class="contact mt-5" id="contact">
-        <h5 class="display-6 project-title" style="font-weight: bold;">Contact Me</h5>
+        <h5 class="display-6 project-title title-name" style="font-weight: bold;">Contact Me</h5>
         <div class="row ms-auto me-auto">
             <div class="col-lg-3 card border-white">
                 <div class="card-body">
@@ -263,16 +262,16 @@
             </div>
             <div class="col-lg-3">
                 <div class="card border-white">
-                    <h4 class="card-title"><a href="https://in.linkedin.com/in/sameer-joshi-572b17197"><i class="fab fa-linkedin-in"></i> sameer joshi</a></h4>
+                    <h4 class="card-title"><a href="https://in.linkedin.com/in/sameer-joshi-572b17197" target="blank"><i class="fab fa-linkedin-in"></i> sameer joshi</a></h4>
                 </div><br>
                 <div class="card border-white">
-                    <h4 class="card-title"><a href="https://in.linkedin.com/in/sameer-joshi-572b17197"><i class="fab fa-facebook"></i> sameer_joshi</a></h4>
+                    <h4 class="card-title"><a href="https://in.linkedin.com/in/sameer-joshi-572b17197" target="blank"><i class="fab fa-facebook"></i> sameer_joshi</a></h4>
                 </div><br>
                 <div class="card border-white">
-                    <h4 class="card-title"><a href="https://in.linkedin.com/in/sameer-joshi-572b17197"><i class="fab fa-instagram"></i> sameer_joshi_007</a></h4>
+                    <h4 class="card-title"><a href="https://in.linkedin.com/in/sameer-joshi-572b17197" target="blank"><i class="fab fa-instagram"></i> sameer_joshi_007</a></h4>
                 </div><br>
                 <div class="card border-white">
-                    <h4 class="card-title"><a href="https://in.linkedin.com/in/sameer-joshi-572b17197"><i class="fab fa-whatsapp"></i> sameer_joshi</a></h4>
+                    <h4 class="card-title"><a href="https://in.linkedin.com/in/sameer-joshi-572b17197" target="blank"><i class="fab fa-whatsapp"></i> sameer_joshi</a></h4>
                 </div><br>
             </div>
         </div>
