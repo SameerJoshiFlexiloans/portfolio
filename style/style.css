@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&display=swap');
 .first{
     width: 100%;
-    height: 700px;
+    height: 47rem;
     background-image: url("../Images/joanna-kosinska-bF2vsubyHcQ-unsplash-min\ \(1\).jpg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -14,16 +14,19 @@
     text-align: center;
     margin-top: 15%;
     color:white;
+    width: 100%;
+    height:45rem;
 }
 
 .contact-me{
     width: 13rem;
-    height: 2%;
+    height: 9%;
     font-size: 30px;
     border:4px solid white;
     border-radius: 45px 45px 45px 45px;
     transition: color 0.5s ease;
     transition: background 0.5s ease;
+
 
 }
 
@@ -134,10 +137,6 @@
     font-size: 50px;
 }
 
-.about .lead{
-    font-weight: bold;
-}
-
 .contact-me a{
     text-decoration: none;
     color: white;
@@ -145,12 +144,10 @@
 
 .myName{
     font-family: 'Dancing Script', cursive;
+    width:100%;
+    height: 100%;
 }
 
-.leadinfo{
-    font-family: 'Yomogi', cursive;
-    font-weight: bold;
-}
 .title-name{
     font-family: 'Oswald', sans-serif;
 }
